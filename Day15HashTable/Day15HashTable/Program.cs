@@ -25,11 +25,11 @@ class Program
     }
     public static void Main(string[] args)
     {
-        Console.WriteLine("Welcome to HashTable and Binary search Tree programs");
+        Console.WriteLine("Welcome to HashTable programs");
         string str = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
         Program p = new Program();
         p.Frequency(str);
-        Console.WriteLine("Enter any index from 0 to 5 to find the value");
+        Console.WriteLine("Enter any index from 0 to 18 to find the value");
         int j = Convert.ToInt32(Console.ReadLine());
         string n = p.hash.Get($"{j}");
         Console.WriteLine($"\nIndex {j}'s value: {n}");
