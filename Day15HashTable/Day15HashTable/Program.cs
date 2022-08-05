@@ -25,7 +25,7 @@ class Program
     }
     public static void Main(string[] args)
     {
-        Console.WriteLine("Welcome to HashTable and Binary search Tree programs");
+        Console.WriteLine("Welcome to HashTable programs");
         string str = "To be or not to be";
         Program p = new Program();
         p.Frequency(str);
