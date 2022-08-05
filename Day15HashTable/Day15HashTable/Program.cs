@@ -18,15 +18,15 @@ class Program
                 if (word.Equals(a[i]))
                     count++;
             }
-            Console.WriteLine($"The frequency of {a[j]} is {count}");
+            Console.WriteLine($"The frequency of \"{a[j]}\" is \"{count}\"");
             hash.Add($"{j}", word);
-            Console.WriteLine($"Key - {j} Value - {hash.Get($"{j}")}");
+            Console.WriteLine($"Key - \"{j}\" Value - \"{hash.Get($"{j}")}\"");
         }
     }
     public static void Main(string[] args)
     {
         Console.WriteLine("Welcome to HashTable and Binary search Tree programs");
-        string str = "To be or not to be";
+        string str = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
         Program p = new Program();
         p.Frequency(str);
         Console.WriteLine("Enter any index from 0 to 5 to find the value");
